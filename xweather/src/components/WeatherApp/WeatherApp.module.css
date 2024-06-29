@@ -1,0 +1,43 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.weather_wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.weather_card{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 150px;
+    background-color: white;
+    /* padding: 10px 30px; */
+    border-radius: 10px;
+    box-shadow: 1px;
+    margin: 10px;
+}
+h4{
+    margin: none
+}
+.input{
+    border: none;
+    border-radius: 2px;
+    padding: 10px;
+}
+.button{
+    border-radius: 2px;
+    padding: 8px;
+    border: none;
+    background-color: green;
+    color: white;
+}
