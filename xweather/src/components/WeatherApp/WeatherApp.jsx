@@ -44,20 +44,20 @@ const WeatherApp = () => {
       {loading && <p>Loading data...</p>}
 
       {weatherData && (
-        <div className={styles.weather_wrapper}>
-          <div className={styles.weather_card}>
+        <div className={styles['weather-cards']}>
+          <div className={styles['weather-card']}>
             <h4>Temperature</h4>
             <p>{weatherData.current.temp_c}°C</p>
           </div>
-          <div className={styles.weather_card}>
+          <div className={styles['weather-card']}>
             <h4>Humidity</h4>
             <p>{weatherData.current.humidity}%</p>
           </div>
-          <div className={styles.weather_card}>
+          <div className={styles['weather-card']}>
             <h4>Condition</h4>
             <p>{weatherData.current.condition.text}</p>
           </div>
-          <div className={styles.weather_card}>
+          <div className={styles['weather-card']}>
             <h4>Wind Speed</h4>
             <p>{weatherData.current.wind_kph} kph</p>
           </div>

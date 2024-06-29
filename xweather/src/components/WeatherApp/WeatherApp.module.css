@@ -6,13 +6,13 @@
     margin-top: 30px;
 }
 
-.weather_wrapper{
+.weather-cards{
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-.weather_card{
+.weather-card{
     text-align: center;
     display: flex;
     flex-direction: column;
